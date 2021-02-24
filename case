@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --qos=shortq
 
-a.out>>output.dat
+./a.out>>output.dat
 
 
 
