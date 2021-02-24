@@ -1,8 +1,10 @@
 # A Fortran Sample code for particle packing in a rectangle box.
 User guide: 
 1) main codes: particle_packing.f, common.f(not necessary for these code sample)</br>
-2) input files: hopp3d.inp, restart.dat </br>
-3) output files </br>
+2) input files: </br>
+   hopp3d.inp, to set general input information </br>
+   restart.dat, set the first variable to 1 if start runing from non-existing "preflow.dat" data file, otherwise set it to 0 </br>
+4) output files </br>
    3-1) data generated during runing the job: </br>
    ppor.dat for bed porosity related information</br>
    preflow.dat for particle information data, need for calculation from existing data</br>
