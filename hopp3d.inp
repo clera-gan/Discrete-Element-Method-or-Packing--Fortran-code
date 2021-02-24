@@ -1,0 +1,49 @@
+Force mode (1-NonLinear model; 2-Linear model)
+1 5
+EMOD,        VPOIS,          DENP
+10000000.D0   0.29D0          2500.0D0
+Apratio,     DiamA,          DiamB,         DiamC, 
+1.5D0        0.0000010D0      0.0000010D0      0.0000010D0
+Particle number 
+8000            
+Time step          Time to stop simulation
+0.000003D0           20000000.0D0 
+Base diameter      upper diameter   thickness 
+0.00002D0           0.00002D0         0.00002D0          
+Base height        upper height
+0.D0               0.0001D0
+Initial velocity   NRINGS
+4.0D0              9
+P-P friction       P-W friction
+0.3D0              0.3D0
+PP N&T damping     P-W N&T damping       Global damping for rotation
+0.3D0  0.3D0       0.3D0  0.3D0          0.3D0
+Stiffness          Damping Normal        Damping Tangential    Hamaker constant
+10000.D0            100.D0                 100.D0               6.5D-20
+P-P Rolling        P-W Rolling 
+0.002D0             0.002D0
+
+
+Definition of particle shape:
+(1) For egg-shaped particles (prolate ellipsoid):
+     DiamA>DiamB=DiamC (DiamA is the polar radius)
+(2) For disk-shaped particles (oblate ellipsoid):
+     DiamA=DiamB>DiamC (DiamC is the polar radius)
+
+N*pi*diamA*diamB*diamC/6=0.6*0.06*0.6*0.64
+
+N=0.6*0.06*0.6*0.64*6./pi/diamA/diamB/diamC
+N=26400
+
+  0.2500000D0      1.5874010D-02  1.5874010D-02  3.9685029D-03
+  0.4999998D0      1.2599212D-02  1.2599212D-02  6.2996033D-03
+  0.7499996D0      1.1006427D-02  1.1006427D-02  8.2548158D-03
+  0.9999993D0      1.0000003D-02  1.0000003D-02  9.9999961D-03
+   1.499999D0      1.3103701D-02  8.7358067D-03  8.7358067D-03
+   1.999998D0      1.5874002D-02  7.9370076D-03  7.9370076D-03
+   2.499998D0      1.8420149D-02  7.3680650D-03  7.3680650D-03
+   2.999998D0      2.0800827D-02  6.9336141D-03  6.9336141D-03
+   3.499997D0      2.3052171D-02  6.5863398D-03  6.5863398D-03
+
+
+
