@@ -12,7 +12,7 @@ User guide:
    3-2) data generated during post-treatment: averageforce.dat, orenXY.dat, coordination.dat, etc.</br>
 4) other related files: location-1-015.dat (needed only for ellipsoidal particles)</br>
 5) compile command in linux (Massive3): "gfortran particle_packing.f"</br>
-6) run the case: use "sbatch case" to submit a job from job script "case". </br>
+6) to run the case: use "sbatch case" to submit a job from job script "case". Please refer to Massive user guide at https://docs.massive.org.au/M3/slurm/simple-batch-jobs.html#running-simple-batch-jobs for more details on runing jobs and job status check. </br>
 
 For DEM packing theory, please refer to paper:</br> 
 [1] J. Gan, A. Yu, Z. Zhou, DEM simulation on the packing of fine ellipsoids, Chemical Engineering Science, 156 (2016) 64-76.
