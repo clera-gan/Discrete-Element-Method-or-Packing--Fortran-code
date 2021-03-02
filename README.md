@@ -17,5 +17,5 @@ User guide:
 For DEM packing theory, please refer to paper:</br> 
 [1] J. Gan, A. Yu, Z. Zhou, DEM simulation on the packing of fine ellipsoids, Chemical Engineering Science, 156 (2016) 64-76.
 
-Contact person:
+Contact person: </br>
 Dr. Jieqing Gan: jieqing.gan@monash.edu
